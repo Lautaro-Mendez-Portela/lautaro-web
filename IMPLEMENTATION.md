@@ -9,13 +9,13 @@
 
 ## Hallazgos previos a la implementación
 
-Siete secciones (`hero`, `servicios`, `megaestadio`, `proyectos`, `proceso`, `sobre-mi`, `contacto`), navbar y footer. Layout centrado de 1280 px, gutters de 24 px, servicios 2 × 2 desde 1024 px, proyectos en dos columnas desde 768 px, timeline horizontal desde 1024 px. Tipografía Geist y JetBrains Mono, iconos Material Symbols Outlined.
+Siete secciones (`hero`, `servicios`, `sistema-reservas`, `proyectos`, `proceso`, `sobre-mi`, `contacto`), navbar y footer. Layout centrado de 1280 px, gutters de 24 px, servicios 2 × 2 desde 1024 px, proyectos en dos columnas desde 768 px, timeline horizontal desde 1024 px. Tipografía Geist y JetBrains Mono, iconos Material Symbols Outlined.
 
 Colores operativos del HTML: fondo `#09090d`, superficie tenue `#0e0e13`, cards `#181822`, bordes `#272738`, acento violeta `#818cf8`, cyan `#38bdf8`, verde `#34d399`; CTAs en emerald-600. Bordes finos, grid de 40 px, glows desenfocados y mockups íntegramente HTML.
 
 Efectos: reveal con opacity + translateY de 12 px, spotlight global interpolado, spotlight radial en cards, elevación de 2 px en hover, floats de 4.5/5 segundos, radar de disponibilidad y línea shimmer. El export tenía coordenadas de cursor grabadas, clases reveal en estados inconsistentes, copia mediante alert, año fijo y navbar incompleta para móviles.
 
-Los enlaces incluyen WhatsApp con cuatro mensajes prearmados, GitHub, LinkedIn, email y anchors. Los números del hero son de una demo explícita. El Sistema de reservas de canchas mantiene seña de $10.000, comprobante cargado/verificado, confirmación y email; no se agregan funcionalidades.
+Los enlaces incluyen WhatsApp con cuatro mensajes prearmados, GitHub, LinkedIn, email y anchors. Los números del hero son de una demo explícita. El Sistema de Reservas para Canchas mantiene seña de $10.000, comprobante cargado/verificado, confirmación y email; no se agregan funcionalidades.
 
 ## Plan ejecutado
 

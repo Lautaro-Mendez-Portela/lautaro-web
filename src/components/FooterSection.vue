@@ -19,7 +19,7 @@ const currentYear = new Date().getFullYear()
 <div class="flex flex-wrap justify-center items-center gap-5 text-xs text-on-surface-variant">
 <a class="hover:text-primary transition-colors py-1" href="#hero">Inicio</a>
 <a class="hover:text-primary transition-colors py-1" href="#servicios">Servicios</a>
-<a class="hover:text-primary transition-colors py-1" href="#megaestadio">Sistema de reservas de canchas</a>
+<a class="hover:text-primary transition-colors py-1" href="#sistema-reservas">Reservas de Canchas</a>
 <a class="hover:text-primary transition-colors py-1" href="#proyectos">Proyectos</a>
 <a class="hover:text-primary transition-colors py-1" href="#proceso">Cómo trabajo</a>
 <a class="hover:text-primary transition-colors py-1" href="#sobre-mi">Sobre mí</a>

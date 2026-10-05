@@ -7,7 +7,7 @@ const header = ref<HTMLElement | null>(null)
 const navigation = [
   { href: '#hero', label: 'Inicio' },
   { href: '#servicios', label: 'Servicios' },
-  { href: '#megaestadio', label: 'Sistema de reservas de canchas' },
+  { href: '#sistema-reservas', label: 'Reservas de Canchas' },
   { href: '#proyectos', label: 'Proyectos' },
   { href: '#proceso', label: 'Cómo trabajo' },
   { href: '#sobre-mi', label: 'Sobre mí' },
@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
 <nav aria-label="Navegación principal" class="hidden xl:flex items-center space-x-6 text-sm font-medium">
 <a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#hero">Inicio</a>
 <a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#servicios">Servicios</a>
-<a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#megaestadio">Sistema de reservas de canchas</a>
+<a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#sistema-reservas">Reservas de Canchas</a>
 <a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#proyectos">Proyectos</a>
 <a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#proceso">Cómo trabajo</a>
 <a class="text-on-surface-variant hover:text-white transition-colors py-1" href="#sobre-mi">Sobre mí</a>

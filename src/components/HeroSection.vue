@@ -24,7 +24,7 @@ import MaterialIcon from './MaterialIcon.vue'
 <MaterialIcon class="text-lg" name="forum" />
   Contame tu idea
 </a>
-<a class="inline-flex items-center gap-2 px-5 py-3.5 min-h-[44px] rounded-xl bg-surface-container border border-surface-border text-white text-sm font-medium hover:bg-surface-container-high hover:border-primary/50 hover:-translate-y-0.5 active:scale-[0.98] transition-all" href="#megaestadio">
+<a class="inline-flex items-center gap-2 px-5 py-3.5 min-h-[44px] rounded-xl bg-surface-container border border-surface-border text-white text-sm font-medium hover:bg-surface-container-high hover:border-primary/50 hover:-translate-y-0.5 active:scale-[0.98] transition-all" href="#sistema-reservas">
 <span class="">Ver proyectos</span>
 <MaterialIcon class="text-lg text-primary" name="arrow_downward" />
 </a>

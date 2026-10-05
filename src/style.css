@@ -42,7 +42,7 @@ html { scrollbar-color: #272738 #09090d; }
 .mobile-socials a { display: inline-flex; align-items: center; min-height: 44px; color: #818cf8; font-size: 14px; }
 .clipboard-feedback { position: absolute; bottom: 40px; left: 24px; right: 24px; color: #6ee7b7; text-align: center; font-size: 12px; min-height: 20px; }
 #contacto .text-emerald-400 { font-variant-numeric: tabular-nums; }
-.hero-dashboard, .mega-desktop { min-width: 0; }
+.hero-dashboard, .booking-desktop { min-width: 0; }
 
 @media (min-width: 1280px) { .menu-toggle { display: none; } }
 @media (max-width: 767px) {
@@ -65,12 +65,12 @@ html { scrollbar-color: #272738 #09090d; }
   #hero .hero-dashboard .p-3.flex { align-items: flex-start; flex-direction: column; gap: 8px; }
   #hero .hero-dashboard .text-base { font-size: 14px; }
   #hero .hero-dashboard .text-xs.pb-1\.5 { flex-wrap: wrap; gap: 8px; }
-  #megaestadio > .spotlight-card, #contacto > .spotlight-card { padding: 24px 16px; }
-  #megaestadio .mega-desktop > div:first-child { flex-wrap: wrap; gap: 8px; padding: 12px; }
-  #megaestadio .mega-desktop > div:first-child .font-mono { font-size: 9px; margin-left: 0; overflow-wrap: anywhere; }
-  #megaestadio .mega-desktop > div:first-child > div { flex-wrap: wrap; }
-  #megaestadio .mega-desktop .justify-between.pb-3 { flex-wrap: wrap; gap: 8px; }
-  #megaestadio .p-6, #servicios .p-7, #proyectos .p-7, #contacto .p-6 { padding: 20px; }
+  #sistema-reservas > .spotlight-card, #contacto > .spotlight-card { padding: 24px 16px; }
+  #sistema-reservas .booking-desktop > div:first-child { flex-wrap: wrap; gap: 8px; padding: 12px; }
+  #sistema-reservas .booking-desktop > div:first-child .font-mono { font-size: 9px; margin-left: 0; overflow-wrap: anywhere; }
+  #sistema-reservas .booking-desktop > div:first-child > div { flex-wrap: wrap; }
+  #sistema-reservas .booking-desktop .justify-between.pb-3 { flex-wrap: wrap; gap: 8px; }
+  #sistema-reservas .p-6, #servicios .p-7, #proyectos .p-7, #contacto .p-6 { padding: 20px; }
   #proyectos article > div > .justify-between { flex-wrap: wrap; }
   #contacto .p-6 > div > .flex { gap: 8px; }
   #contacto .p-6 > div > .flex > div:last-child { min-width: 0; }

@@ -3,7 +3,7 @@ import MaterialIcon from './MaterialIcon.vue'
 </script>
 
 <template>
-<section aria-labelledby="megaestadio-title" class="py-24 max-w-7xl mx-auto px-6 relative" id="megaestadio">
+<section aria-labelledby="sistema-reservas-title" class="py-24 max-w-7xl mx-auto px-6 relative" id="sistema-reservas">
 <div class="spotlight-card rounded-3xl bg-gradient-to-b from-[#14141f] via-[#111119] to-[#0d0d14] border border-surface-border p-8 md:p-12 shadow-2xl relative overflow-hidden reveal">
 <div class="absolute -right-24 -top-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
 <div class="absolute -left-24 -bottom-24 w-96 h-96 bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none"></div>
@@ -13,15 +13,15 @@ import MaterialIcon from './MaterialIcon.vue'
 <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
 <span class="text-[11px] font-mono uppercase tracking-wider font-semibold">PROYECTO DESTACADO</span>
 </div>
-<h2 id="megaestadio-title" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-  Sistema de reservas de canchas
+<h2 id="sistema-reservas-title" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
+  Sistema de Reservas para Canchas
 </h2>
 <p class="text-lg font-medium text-secondary mt-1">
   Reservas online y panel central para el negocio
 </p>
 </div>
 <div class="flex flex-wrap items-center gap-2.5">
-<a class="inline-flex items-center gap-2 px-5 py-3 min-h-[44px] rounded-xl bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-500 shadow-md shadow-emerald-700/25 hover:-translate-y-0.5 active:scale-[0.98] transition-all" href="https://wa.me/5492213524236?text=Hola%20Lautaro,%20me%20interesa%20un%20sistema%20de%20reservas%20de%20canchas" rel="noopener noreferrer" target="_blank">
+<a class="inline-flex items-center gap-2 px-5 py-3 min-h-[44px] rounded-xl bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-500 shadow-md shadow-emerald-700/25 hover:-translate-y-0.5 active:scale-[0.98] transition-all" href="https://wa.me/5492213524236?text=Hola%20Lautaro,%20me%20interesa%20un%20sistema%20de%20reservas%20para%20canchas" rel="noopener noreferrer" target="_blank">
 <MaterialIcon class="text-base" name="chat" />
   Hablemos de mi proyecto
 </a>
@@ -59,7 +59,7 @@ import MaterialIcon from './MaterialIcon.vue'
 </div>
 <div class="relative rounded-2xl bg-[#09090f] border border-surface-border p-4 sm:p-8 overflow-hidden shadow-2xl mb-10">
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-<div class="lg:col-span-8 rounded-xl mega-desktop bg-[#111119] border border-surface-border/80 shadow-lg overflow-hidden">
+<div class="lg:col-span-8 rounded-xl booking-desktop bg-[#111119] border border-surface-border/80 shadow-lg overflow-hidden">
 <div class="px-4 py-2.5 bg-[#171722] border-b border-surface-border/80 flex items-center justify-between">
 <div class="flex items-center gap-2">
 <span class="w-2.5 h-2.5 rounded-full bg-rose-500/70 inline-block"></span>
@@ -106,7 +106,7 @@ import MaterialIcon from './MaterialIcon.vue'
 <div class="p-2.5 rounded-xl bg-surface-container border border-surface-border/70 space-y-1.5 text-[11px]">
 <div class="text-gray-400 text-[10px]">Detalle:</div>
 <div class="text-white font-bold">Cancha 1 (Fútbol 7) · Viernes 20:00 hs</div>
-<div class="text-gray-300 text-[10px]">Sistema de reservas de canchas</div>
+<div class="text-gray-300 text-[10px]">Sistema de Reservas para Canchas</div>
 <div class="text-emerald-400 font-mono text-[10px] font-semibold pt-1 border-t border-surface-border/50">Seña recibida: $10.000 · Comprobante verificado</div>
 </div>
 <div class="p-2 rounded-lg bg-surface-container-high border border-surface-border/60 flex items-center gap-2">

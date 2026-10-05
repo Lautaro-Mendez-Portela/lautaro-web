@@ -71,9 +71,9 @@ try {
       assert.equal(await menu.getAttribute('aria-expanded'), 'false')
       assert(await menu.evaluate(el => el === document.activeElement))
       await menu.click()
-      await page.getByRole('navigation', { name: 'Navegación móvil' }).getByRole('link', { name: 'Sistema de reservas de canchas', exact: true }).click()
+      await page.getByRole('navigation', { name: 'Navegación móvil' }).getByRole('link', { name: 'Reservas de Canchas', exact: true }).click()
       assert.equal(await menu.getAttribute('aria-expanded'), 'false')
-      assert.equal(new URL(page.url()).hash, '#megaestadio')
+      assert.equal(new URL(page.url()).hash, '#sistema-reservas')
       await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
     } else {
       assert(await page.getByRole('navigation', { name: 'Navegación principal', exact: true }).isVisible())
@@ -82,7 +82,7 @@ try {
       await page.screenshot({ path: fileURLToPath(new URL(`width-${width}.png`, output)), fullPage: true })
       if (width === 1280) await page.screenshot({ path: fileURLToPath(new URL('desktop-reference.png', output)) })
       if (width === 390 || width === 1280) {
-        for (const section of ['hero', 'servicios', 'megaestadio', 'proyectos', 'proceso', 'sobre-mi', 'contacto']) {
+        for (const section of ['hero', 'servicios', 'sistema-reservas', 'proyectos', 'proceso', 'sobre-mi', 'contacto']) {
           await page.locator(`#${section}`).screenshot({
             path: fileURLToPath(new URL(`${width}-${section}.png`, output)),
             style: 'header { visibility: hidden !important; } .skip-link { visibility: hidden !important; }',
